@@ -34,3 +34,22 @@ opt.ignorecase = true
 
 --Load Emmet
 require('config.plugin.emmet')
+
+--Autoinstaller
+function Installer()
+  vim.fn.system({
+    'sudo',
+    'npm',
+    'i',
+    '-g',
+    'live-server',
+    'bash-language-server',
+    'vscode-langservers-extracted',
+  })
+  vim.fn.system({
+    'pip',
+    'install',
+    '-U',
+    'jedi-language-server'
+  })
+end
