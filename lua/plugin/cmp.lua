@@ -8,7 +8,8 @@ return {
         'hrsh7th/cmp-git',
         'L3MON4D3/LuaSnip',
         'saadparwaiz1/cmp_luasnip',
-        'windwp/nvim-autopairs'
+        'windwp/nvim-autopairs',
+        'mattn/emmet-vim'
     },
     event = 'VeryLazy',
     main = 'config.plugin.cmp',

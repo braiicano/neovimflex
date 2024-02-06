@@ -34,7 +34,12 @@ return {
                 },
             },
         })
+        lspconfig.astro.setup({})
+        lspconfig.bashls.setup({})
+        lspconfig.html.setup({})
         lspconfig.pyright.setup({})
-        --lspconfig.prettier.setup({})
+        lspconfig.ruby_ls.setup({})
+        lspconfig.tsserver.setup({})
+        lspconfig.vimls.setup({})
     end
 }

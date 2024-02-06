@@ -1,0 +1,3 @@
+-- Python test run terminal
+-- Nodejs run live-server
+-- Open new terminal

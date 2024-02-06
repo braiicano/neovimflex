@@ -29,7 +29,5 @@ opt.hlsearch = true
 opt.smartcase = true
 opt.ignorecase = true
 
---Autocomplete
-opt.completeopt = 'menuone,noselect'
-vim.bo.dictionary = vim.bo.dictionary .. ',' .. 'usr/share/dict/words'
-
+--Load Emmet
+require('config.plugin.emmet')
