@@ -11,7 +11,6 @@ return {
             'astro',
             'bash',
             'css',
-            'go',
             'html',
             'htmldjango',
             'javascript',

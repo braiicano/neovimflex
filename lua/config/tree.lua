@@ -23,5 +23,5 @@ function TreeOpen()
 end
 
 
-tree('n','<C-b>',[[:lua TreeOpen()<CR>]],{ noremap = true, silent = true })
-tree('i','<C-b>',[[<ESC>:lua TreeOpen()<CR>]],{ noremap = true, silent = true })
+tree('n','<C-b>',[[:lua TreeOpen()<CR>]],{ noremap = true, silent = true, desc = 'Open tree explorer' })
+tree('i','<C-b>',[[<ESC>:lua TreeOpen()<CR>]],{ noremap = true, silent = true, desc = 'Open tree explorer' })
